@@ -1,0 +1,1 @@
+This project is independently implemented and enhanced as part of an assignment. It includes backend APIs, role-based access control, and financial dashboard features.
