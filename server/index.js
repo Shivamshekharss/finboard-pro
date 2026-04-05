@@ -37,6 +37,9 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
+app.get("/", (req, res) => {
+  res.send("API is running 🚀");
+});
 
 /* ROUTES */
 app.use("/kpi", kpiRoutes);
@@ -44,6 +47,7 @@ app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 app.use("/api/users", userRoutes);
 app.use("/dashboard", dashboardRoutes);
+
 
 /* PORT */
 const PORT = process.env.PORT || 9000;
