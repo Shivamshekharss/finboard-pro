@@ -14,14 +14,12 @@ A sleek, data-driven **finance analytics dashboard** built with the MERN stack �
 ## 🖼️ Product Snapshot
 
 <p align="center">
-  <img src="./client/public/dashboard.png" width="85%" alt="Dashboard Overview"/>
+  <img src="./Dashboard.jpeg" width="85%" alt="Dashboard Overview"/>
 </p>
 
 <p align="center">
-  <img src="./client/public/graphs.png" width="85%" alt="Analytics Graphs"/>
+  <img src="./graph.jpeg" width="85%" alt="Analytics Graphs"/>
 </p>
-
----
 
 ## 🧠 What This Project Solves
 
