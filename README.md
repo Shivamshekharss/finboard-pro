@@ -1,34 +1,27 @@
-# 📊 Finance Dashboard (MERN Stack)
+### 🏠 Dashboard Overview
+![Dashboard](./client/public/dashboard.png)
 
-A modern **Finance Dashboard application** built using the MERN stack.  
-This project provides real-time analytics for KPIs, products, and transactions with a clean and responsive UI.
-
----
-
-## 👨‍💻 Author
-**Shivam Shekhar**
+### 📊 Analytics & Graphs
+![Graphs](./client/public/graphs.png)
 
 ---
 
-## 🖼️ Project Preview
+## 🚀 Live Demo
 
-### 🏠 Dashboard View 1
-![Dashboard View 1](./client/src/assets/homepage1.png)
-
-### 🏠 Dashboard View 2
-![Dashboard View 2](./client/src/assets/homepage2.png)
+- 🌐 Frontend: https://finboard-pro-xi.vercel.app/  
+- ⚙️ Backend API: https://finboard-pro-4.onrender.com/  
 
 ---
 
 ## 🚀 Tech Stack
 
-### Frontend
+### 🖥️ Frontend
 - React + TypeScript (Vite)
 - Material UI (MUI)
 - Redux Toolkit Query
 - Recharts (Data Visualization)
 
-### Backend
+### ⚙️ Backend
 - Node.js
 - Express.js
 - MongoDB + Mongoose
@@ -41,6 +34,7 @@ This project provides real-time analytics for KPIs, products, and transactions w
 finance-dashboard/
 │
 ├── client/ # Frontend (React + Vite)
+│
 ├── server/ # Backend (Node + Express)
 │ ├── models/
 │ ├── routes/
@@ -55,9 +49,10 @@ finance-dashboard/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash id="p1q8wz"
-git clone <your-repo-url>
-cd finance-dashboard
+
+```bash
+git clone https://github.com/Shivamshekharss/finboard-pro.git
+cd finboard-pro
 2️⃣ Backend Setup
 cd server
 npm install
@@ -72,8 +67,8 @@ Run backend:
 npm start
 
 Server runs at:
+👉 http://localhost:5000
 
-http://localhost:5000
 3️⃣ Frontend Setup
 cd client
 npm install
@@ -87,15 +82,15 @@ Run frontend:
 npm run dev
 
 Frontend runs at:
+👉 http://localhost:5173
 
-http://localhost:5173
 📊 Features
 📈 KPI Analytics Dashboard
 📦 Product Tracking System
 💰 Transaction Management
-📊 Interactive Charts
+📊 Interactive Charts & Graphs
 ⚡ Real-time API Integration
-🎨 Modern Responsive UI
+🎨 Fully Responsive UI
 🔌 API Endpoints
 KPI Data
 GET /kpi/kpis
@@ -107,12 +102,12 @@ GET /transaction/transactions
 Database auto-seeds on first backend run
 Ensure MongoDB is running locally
 Frontend uses Redux Toolkit Query for API handling
-Fully responsive UI
+Designed with scalability in mind
 🛠️ Common Issues
-❌ "Cannot GET /kpi"
+❌ Cannot GET /kpi
 
 ✔ Ensure backend is running on port 5000
-✔ Check .env file in server directory
+✔ Check .env file in server
 
 ❌ Empty UI Data
 
@@ -127,18 +122,18 @@ Learning full-stack MERN development
 Understanding dashboard UI design
 Working with real-world API integration
 Practicing modern frontend architecture
+🌟 Future Improvements
+🔐 User Authentication (JWT)
+📅 Date-based filtering
+📥 Export reports (CSV/PDF)
+🌙 Dark mode support
+🔔 Notifications system
 📌 License
 
 This project is open-source and created for learning purposes.
 
-⭐ Thank You
+⭐ Show Your Support
 
-Made with dedication by Shivam Shekhar 🚀
+If you like this project, give it a ⭐ on GitHub!
 
-
----
-
-If you want next level upgrade, I can also:
-✔ add GitHub badges (stars, forks, tech icons)  
-✔ make it look like a **top 1% developer README**  
-✔ or help you deploy it online (Vercel + Render) 🚀
+🚀 Made with dedication by Shivam Shekhar
