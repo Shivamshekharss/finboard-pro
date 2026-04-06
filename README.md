@@ -1,139 +1,172 @@
-### 🏠 Dashboard Overview
-![Dashboard](./client/public/dashboard.png)
+# 🚀 FinBoard — Modern Finance Dashboard
 
-### 📊 Analytics & Graphs
-![Graphs](./client/public/graphs.png)
+A sleek, data-driven **finance analytics dashboard** built with the MERN stack — designed to visualize business performance, track transactions, and deliver actionable insights in real time.
 
 ---
 
-## 🚀 Live Demo
+## ✨ Live Preview
 
-- 🌐 Frontend: https://finboard-pro-xi.vercel.app/  
-- ⚙️ Backend API: https://finboard-pro-4.onrender.com/  
-
----
-
-## 🚀 Tech Stack
-
-### 🖥️ Frontend
-- React + TypeScript (Vite)
-- Material UI (MUI)
-- Redux Toolkit Query
-- Recharts (Data Visualization)
-
-### ⚙️ Backend
-- Node.js
-- Express.js
-- MongoDB + Mongoose
+🌐 **Frontend**: https://finboard-pro-xi.vercel.app/
+⚙️ **API**: https://finboard-pro-4.onrender.com/
 
 ---
 
-## 📁 Project Structure
+## 🖼️ Product Snapshot
 
+<p align="center">
+  <img src="./client/public/dashboard.png" width="85%" alt="Dashboard Overview"/>
+</p>
 
-finance-dashboard/
-│
-├── client/ # Frontend (React + Vite)
-│
-├── server/ # Backend (Node + Express)
-│ ├── models/
-│ ├── routes/
-│ ├── data/
-│ └── index.js
-│
-└── README.md
-
+<p align="center">
+  <img src="./client/public/graphs.png" width="85%" alt="Analytics Graphs"/>
+</p>
 
 ---
 
-## ⚙️ Setup Instructions
+## 🧠 What This Project Solves
 
-### 1️⃣ Clone the Repository
+Most beginner dashboards just display static data.
+
+**FinBoard goes further:**
+
+* Structures real-world financial data
+* Simulates business KPIs & transactions
+* Visualizes trends through interactive charts
+* Demonstrates scalable frontend-backend architecture
+
+---
+
+## ⚙️ Tech Stack
+
+**Frontend**
+
+* React (Vite + TypeScript)
+* Material UI
+* Redux Toolkit Query
+* Recharts
+
+**Backend**
+
+* Node.js + Express
+* MongoDB + Mongoose
+
+---
+
+## 🏗️ Architecture
+
+```bash
+client/   → UI + state management  
+server/   → API + database logic  
+```
+
+* REST API driven
+* Modular backend structure
+* Centralized state with RTK Query
+* Responsive UI system
+
+---
+
+## 📊 Core Features
+
+* Real-time KPI analytics
+* Transaction tracking system
+* Product performance monitoring
+* Interactive data visualizations
+* Clean, responsive dashboard UI
+
+---
+
+## 🔌 API Overview
+
+| Resource     | Endpoint                    |
+| ------------ | --------------------------- |
+| KPI          | `/kpi/kpis`                 |
+| Products     | `/product/products`         |
+| Transactions | `/transaction/transactions` |
+
+---
+
+## ⚡ Local Setup
 
 ```bash
 git clone https://github.com/Shivamshekharss/finboard-pro.git
 cd finboard-pro
-2️⃣ Backend Setup
+```
+
+### Backend
+
+```bash
 cd server
 npm install
+```
 
-Create a .env file:
+Create `.env`
 
+```
 MONGO_URL=mongodb://127.0.0.1:27017/finance-dashboard
 PORT=5000
+```
 
-Run backend:
-
+```bash
 npm start
+```
 
-Server runs at:
-👉 http://localhost:5000
+---
 
-3️⃣ Frontend Setup
+### Frontend
+
+```bash
 cd client
 npm install
+```
 
-Create a .env file:
+Create `.env`
 
+```
 VITE_BASE_URL=http://localhost:5000
+```
 
-Run frontend:
-
+```bash
 npm run dev
+```
 
-Frontend runs at:
-👉 http://localhost:5173
+---
 
-📊 Features
-📈 KPI Analytics Dashboard
-📦 Product Tracking System
-💰 Transaction Management
-📊 Interactive Charts & Graphs
-⚡ Real-time API Integration
-🎨 Fully Responsive UI
-🔌 API Endpoints
-KPI Data
-GET /kpi/kpis
-Products
-GET /product/products
-Transactions
-GET /transaction/transactions
-🧠 Notes
-Database auto-seeds on first backend run
-Ensure MongoDB is running locally
-Frontend uses Redux Toolkit Query for API handling
-Designed with scalability in mind
-🛠️ Common Issues
-❌ Cannot GET /kpi
+## 🚧 Limitations
 
-✔ Ensure backend is running on port 5000
-✔ Check .env file in server
+* No authentication (single-user simulation)
+* Static seeded dataset
+* No export/reporting features yet
 
-❌ Empty UI Data
+---
 
-✔ Verify VITE_BASE_URL in frontend .env
-✔ Ensure backend is running properly
+## 🔮 Next Evolution
 
-🎯 Purpose
+* JWT Authentication
+* Multi-user dashboards
+* Advanced filtering & search
+* Export (CSV / PDF)
+* Dark mode
 
-This project was built for:
+---
 
-Learning full-stack MERN development
-Understanding dashboard UI design
-Working with real-world API integration
-Practicing modern frontend architecture
-🌟 Future Improvements
-🔐 User Authentication (JWT)
-📅 Date-based filtering
-📥 Export reports (CSV/PDF)
-🌙 Dark mode support
-🔔 Notifications system
-📌 License
+## 🎯 Why This Project Matters
 
-This project is open-source and created for learning purposes.
+This project demonstrates:
 
-⭐ Show Your Support
+* Full-stack MERN development
+* API-driven UI architecture
+* Real-world dashboard design patterns
+* Clean and scalable code structure
 
-If you like this project, give it a ⭐ on GitHub!
+---
 
-🚀 Made with dedication by Shivam Shekhar
+## 👨‍💻 Author
+
+**Shivam Shekhar**
+
+---
+
+## ⭐ If You Like It
+
+Give it a star — it helps more than you think.
